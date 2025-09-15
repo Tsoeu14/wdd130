@@ -22,5 +22,38 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+main {
+    max-width: 820px;
+}
+
+aside {
+    width: 20em;
+    margin: 1em;
+    border: 1px  salmon(0 0 0 0.2);
+    padding: 1em;
+    background-color: paleturquoise ;
+    color: black;
+    text-align: center;
+
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    padding: 2px;
+}
+
+main img {
+    width: 200px;
+    height: auto;
+
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 20px;
+    text-align: center;
 }
