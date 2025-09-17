@@ -1,3 +1,10 @@
+root {
+    --heading-background-color: black;
+    --heading-text-color: white;
+    --heading-font: 'montserrat'
+
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
