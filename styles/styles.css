@@ -1,12 +1,14 @@
-root {
-    --heading-background-color: black;
-    --heading-text-color: white;
-    --heading-font: 'montserrat'
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+:root {
+    --background-color: black;
+}
 nav {
-    background-color: darkblue;
+    background-color: rgb(139, 0, 127);
     padding: 10px;
 }
 
@@ -17,31 +19,30 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: rgb(0, 139, 81);
+    padding: .5rem;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid gray;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-}
-
-p {
-    padding: 0;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 main { 
-    max-width: 820px;
+    max-width: 640px;
 }
 
 aside {
     width: 20em;
     margin: 1em;
-    border: 1px gray;
+    border: 1px solid rgb(128, 128, 128);
     padding: 1em;
-    background-color: paleturquoise ;
+    background-color: rgb(238, 175, 206) ;
     color: black;
     text-align: center;
 
@@ -50,17 +51,20 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-    padding: 2px;
-}
-
-main img {
-    width: 200px;
-    height: auto;
-
 }
 
 footer {
     margin-top: 20px;
     border-top: 20px;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 2rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: aliceblue;
+    color: black;
+    overflow: auto;
 }
