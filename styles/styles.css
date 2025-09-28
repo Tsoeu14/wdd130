@@ -15,6 +15,11 @@ nav a {
     display: block;
 }
 
+div img {
+    position: relative;
+    
+}
+
 h1 {
     color: blue;
     padding: .5rew;
@@ -36,22 +41,6 @@ footer {
     border-top: 1px solid black;
     text-align: center;
 }
-.float-right {
-  float: right;
-  margin-left: 20px; /* optional spacing */
-  max-width: 300px; /* adjust as needed */
-}
-
-.content-block::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.links {
-  margin-top: 20px; /* spacing below image/paragraph */
-}
-
 
 /*Class Selector*/
 .box {
