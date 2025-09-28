@@ -10,14 +10,13 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    margin: 600px;
-    width: 0 auto;
+    margin: 10px 0;
+    width: auto;
 }
 
-header image{
-    width: 1px;
-    height: 2px;
-    padding: 1rem;
+.header image{
+    width: 950px;
+    height: auto;
 }
 
 *{
