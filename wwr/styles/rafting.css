@@ -1,7 +1,7 @@
 :root{
     --primary-color: rgb(0, 247, 255);
     --secondary-color: rgb(255, 255, 255);
-    --accent1-color: black;
+    --accent1-color: peru;
     --accent2-color: rgb(128, 0, 0);
     --heading-font: "New Times Roman", "Georgia", serif;
     --body-font: Ariel, Helvetica, sans-serif;
@@ -12,11 +12,6 @@ header {
     color: var(--accent2-color);
     margin: 10px 0;
     width: auto;
-}
-
-.header image{
-    width: 950px;
-    height: auto;
 }
 
 *{
@@ -63,7 +58,7 @@ nav, p, section, article {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    background: rgba(0,0,0,0.6); /* optional for readability */
+    background: peru; /* optional for readability */
     color: white;
     padding: 1rem;
     border-radius: 8px;
