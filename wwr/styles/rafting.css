@@ -1,0 +1,95 @@
+:root{
+    --primary-color: rgb(0, 247, 255);
+    --secondary-color: rgb(255, 255, 255);
+    --accent1-color: black;
+    --accent2-color: rgb(128, 0, 0);
+    --heading-font: "New Times Roman", "Georgia", serif;
+    --body-font: Ariel, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color)
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0,0,0,0.6); /* optional for readability */
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 94%; /* or whatever fits your design */
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding:15px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: rgb(238, 175, 206);
+    color: black;
+    overflow: auto;
+}
