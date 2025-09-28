@@ -10,6 +10,14 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    margin: 600px;
+    width: 0 auto;
+}
+
+header image{
+    width: 1px;
+    height: 2px;
+    padding: 1rem;
 }
 
 *{
@@ -79,11 +87,7 @@ h1 {
     width: 125px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-}
+
 
 .box {
     margin: 1rem;
