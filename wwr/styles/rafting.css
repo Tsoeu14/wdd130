@@ -17,6 +17,11 @@ header {
     justify-content: center;
 }
 
+header img{
+    width: 100px;
+    height: auto;
+}
+
 header nav ul{
     display: flex;
     flex-direction: row;
@@ -128,15 +133,29 @@ section div img{
     justify-content: space-evenly;
     padding: 15px;
     gap: 15px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .equal img{
-    max-width: 180px;
-    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 8px;
 }
+
+.equal figure{
+    width: 100px;
+    text-align: center;
+}
+
+.equal figcaption{
+    margin-top: 5px;
+    font-size: 0.9em;
+
+}
+
 
 .samespace{
     max-width: 1500px;
