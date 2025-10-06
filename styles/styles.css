@@ -40,13 +40,18 @@ p {
 
 aside{
     width: 20em;
+    margin: 0 auto;
+    border: 1px;
+    padding: 1px;
+    background-color: black;
+    color: white;
     text-align: center;
     position: relative;
 }
 
 aside h2{
     position: absolute;
-    top:53px;
+    top:33px;
     left: 100px;
 }
 
@@ -76,7 +81,7 @@ footer{
     padding-left: 2rem;
 }
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
 
