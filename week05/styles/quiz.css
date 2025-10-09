@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    max-width: 510px;
+    padding: 1rem;
+    border: 1px solid black;
+    padding: 1em;
+    background-color: orange;
+    color: black;
+}
+input,textarea, select, button{
+    margin: .75rem;
+    width: 350px;
+}
+
+form{
+    background-color: aqua;
+    color: #000;
+}
+code{
+    display: block;
+    background-color: gray;
+    color: whitesmoke;
+}
+
+.box{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.item{
+    padding: none;
+}
+
+button{
+    background-color: navy;
+    color: #000;
+    display: block;
+}
