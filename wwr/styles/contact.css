@@ -1,7 +1,7 @@
 :root{
     --primary-color: rgb(0, 247, 255);
     --secondary-color: rgb(255, 255, 255);
-    --accent1-color: peru;
+    --accent1-color: black;
     --accent2-color: rgb(128, 0, 0);
     --heading-font: "New Times Roman", "Georgia", serif;
     --body-font: Ariel, Helvetica, sans-serif;
@@ -38,6 +38,7 @@ header nav ul{
 }
 
 body {
+    text-indent: 2px;
     font-family: var(--body-font);
     color: var(--accent1-color)
 }
@@ -47,64 +48,38 @@ header, main, footer {
     margin: 0 auto;
 }
 
+main div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    
+}
+
 h1, h2 {
+    display: flex;
+    align-content: center;
     font-family: var(--heading-font);
     color: var(--primary-color)
 }
 
-nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
-}
-
 .socialmedia a {
     text-decoration: none;
-}
-
-.hero {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hero article {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background: peru; /* optional for readability */
-    color: white;
-    padding: 1rem;
-    border-radius: 8px;
-    width: 94%; /* or whatever fits your design */
-}
-
-h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding:15px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: white;
-}
-
-.hero article img {
     float: right;
-    width: 125px;
 }
 
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
-    background-color: rgb(238, 175, 206);
+    background-color: grey;
     color: black;
     overflow: auto;
+}
+
+iframe{
+    border: 2px solid #333;
+    border-radius: 8px;
 }
 
 section h2{
@@ -116,14 +91,6 @@ section h2{
 section div img{
     max-width: 200px;
     height: auto;
-}
-
-.align{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
-    gap: 20px;
 }
 
 .equal{
@@ -156,6 +123,7 @@ section div img{
 }
 
 
+
 .samespace{
     max-width: 1500px;
     margin: 0 auto;
@@ -164,8 +132,63 @@ section div img{
 }
 
 footer{
+    position: relative;
     display: flex;
+    justify-content: space-between;
     text-align: center;
     padding: 20px;
     background-color: var(--primary-color);
+}
+
+input, textarea, button{
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid grey;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+    font-family: sans-serif;
+
+}
+
+textarea{
+    resize: vertical;
+    height: 100px;
+}
+button{
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+label{
+    text-align: right;
+    padding: 1px;
+}
+input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+.form{
+    display: grid;
+    align-items: center;
+    gap: 15px;
+}
+.column2{
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.sideways{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
 }
