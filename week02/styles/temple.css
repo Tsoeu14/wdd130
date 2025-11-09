@@ -1,0 +1,38 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+main{
+    width: 400px;
+    margin: 0 auto;  /*this will help center the contents inside the main*/
+}
+h1{
+    text-align: center;
+}
+h2{
+    border-bottom: 1px solid #333;
+}
+img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px gray;
+}
+section{
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0/ 10%);
+    padding: 20px;
+    background-color: #3333;
+}
+section p{
+    margin: 10px;
+}
+footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
