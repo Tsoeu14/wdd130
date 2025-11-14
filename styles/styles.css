@@ -35,12 +35,13 @@ p {
 aside{ 
     width: 20rem;
     text-align: center;
+    position: relative;
     
  } 
  aside h2 {
     position: absolute;
-    top: 630px;
-    left: 120px;
+    top: 30px;
+    left: 90px;
  }
 aside img{
     width: 200px;
