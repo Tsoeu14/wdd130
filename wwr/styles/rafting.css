@@ -23,11 +23,7 @@ header, main, footer {
 }
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
-}
-.socialmedia {
-    text-decoration: none;
-}
+    color: var(--primary-color);}
 .hero {
     position: relative;
 }
@@ -36,7 +32,7 @@ h1, h2 {
     width: 100%;
     height: auto;
 }
-h1{
+.hero h1{
     position: absolute;
     top: 20px;
     text-align: center;
@@ -59,4 +55,7 @@ article {
     margin: 5px;
     padding: 4px;
     border: 1px solid gray;
+}
+.socialmedia {
+    text-decoration: none;
 }
