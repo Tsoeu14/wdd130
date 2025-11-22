@@ -47,7 +47,7 @@ h1, h2 {
     width: 100%;
     padding: 15px;
 }
-article {
+.hero article {
     position: absolute;
     top: 130px;
     width: 100%;
