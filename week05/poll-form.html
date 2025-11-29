@@ -6,6 +6,29 @@
     <title>Poll Form</title>
 </head>
 <body>
-    
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <label for="fullname">Full name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="browser">What is your favorite browser?</label>
+            <select name="quantity" id="quantity">
+                <option value="safari">Safari</option>
+                <option value="chrome">Chrome</option>
+                <option value="edge">Edge</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="pet">Do you have a pet?<input type="checkbox" id="pet" name="pet"></label>
+            <label for="feedback">List the places you have lived.<textarea name="feedback" id="feedback" rows="4" placeholder="Johannesburg Gauteng, Cape Town Western Cape"></textarea></label>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>©️20205 | HTML Form - User Poll Activity | Hlalefang Tsoeu</p>
+    </footer>
 </body>
 </html>
