@@ -1,0 +1,14 @@
+table{
+    border-collapse: collapse;
+    border: 3px solid #ffc0cb;
+    letter-spacing: 1px;
+}
+td, th{
+    border: 2px solid #808080;
+    padding: 8px 12px;
+    text-align: center;
+}
+thead tr, tfoot tr{
+    background-color: #ffc0cb;
+    font-weight: 700;
+}
