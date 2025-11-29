@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poll Form</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 <body>
     <header>
@@ -11,19 +12,25 @@
     </header>
     <main>
         <form>
-            <label for="fullname">Full name:</label>
-            <input type="text" id="fullname" name="fullname" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="browser">What is your favorite browser?</label>
-            <select name="quantity" id="quantity">
-                <option value="safari">Safari</option>
-                <option value="chrome">Chrome</option>
-                <option value="edge">Edge</option>
-                <option value="other">Other</option>
-            </select>
-            <label for="pet">Do you have a pet?<input type="checkbox" id="pet" name="pet"></label>
-            <label for="feedback">List the places you have lived.<textarea name="feedback" id="feedback" rows="4" placeholder="Johannesburg Gauteng, Cape Town Western Cape"></textarea></label>
+            <fieldset>
+                <legend>Contact Information:</legend>
+                <label for="fullname">Full name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+            <fieldset>
+                <legend>Questions:</legend>
+                <label for="browser">What is your favorite browser?</label>
+                <select name="quantity" id="quantity">
+                    <option value="safari">Safari</option>
+                    <option value="chrome">Chrome</option>
+                    <option value="edge">Edge</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="pet">Do you have a pet?<input type="checkbox" id="pet" name="pet"></label>
+                <label for="feedback">List the places you have lived.<textarea name="feedback" id="feedback" rows="4" placeholder="Johannesburg Gauteng, Cape Town Western Cape"></textarea></label>
+        </fieldset>
             <button type="submit">Submit Poll</button>
         </form>
     </main>
