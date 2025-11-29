@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    max-width: 500px;
+    margin: 1rem;
+    border: 1px solid #808080;
+    padding: 1rem;
+    background-color: bisque;
+}
+h1{
+    margin: .5rem;
+}
+input, textarea, select, button{
+    display: block;
+    padding: .75rem;
+    width: 350px;
+}
+code{
+    display: block;
+    margin: 15px;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    width: 200px;
+}
+button{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: blue;
+    color: black;
+    font-weight: 700;
+}
+.quiz-item{
+    display: block;
+    border: none;
+}
