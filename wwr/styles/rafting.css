@@ -80,24 +80,24 @@ footer{
     top: 20px;
     text-align: center;
     background-color: var(--secondary-color);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
+    font-family: cursive;
     width: 100%;
     padding: 15px;
 }
 .hero article {
     position: absolute;
+    width: 820px;
     top: 130px;
-    width: 100%;
-    background-color: var(--accent2-color);
-    opacity: 0.7;
-    padding: 16px;
+    background-color: var(--secondary-color);
+    opacity: 0.9;
+    /* padding: 30px; */
 }
 .hero article img {
     float: right;
     width: 125px;
     margin: 5px;
-    padding: 4px;
-    border: 1px solid gray;
+    border: 1px solid black;
 }
 .history{
     display: grid;
@@ -111,12 +111,17 @@ footer{
     width: fit-content;
     gap: 10px;
 }
+.assists{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
 figure img{
     width: 150px;
     height: auto;
     object-fit: cover;
     border-radius: 5px;
-    padding: 10px;
+    padding-left: 40px;
 }
 figcaption{
     text-align: center;
