@@ -57,6 +57,9 @@ h2{
     background-color: var(--primary-color);
     padding: 2px;
 }
+section img{
+    padding-top: 30px;
+}
 footer{
     background-color: var(--primary-color);
     color: var(--accent2-color);
@@ -113,8 +116,11 @@ figure img{
     height: auto;
     object-fit: cover;
     border-radius: 5px;
+    padding: 10px;
 }
-
+figcaption{
+    text-align: center;
+}
 .socialmedia a{
     text-decoration: none;
     justify-content: flex-end;
