@@ -153,8 +153,8 @@ fieldset{
     display: grid;
 }
 input, select, textarea {
-  padding: 0.4rem;
-  font-size: 1rem;
+    padding: 0.4rem;
+    font-size: 1rem;
 }
 button{
     background-color: var(--primary-color);
@@ -168,6 +168,7 @@ button:hover{
 }
 .yes{
     display: grid;
+    justify-content: space-between;
     grid-template-columns: 1fr 1fr;
     gap: 5px;
     width: 850px;
