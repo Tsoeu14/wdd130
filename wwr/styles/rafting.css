@@ -127,11 +127,11 @@ figure img{
 figcaption{
     text-align: center;
 }
-.socialmedia a{
+.socialmedia a img{
     text-decoration: none;
     /* display: flex; */
     justify-content: flex-end;
-    text-align: end;
+    text-align: left;
 }
 .bottom{
     display: flex;
