@@ -42,7 +42,7 @@ nav, p, section, article{
     padding: 8px;
 }
 
-header, main, footer,.yes {
+header, main, footer,.yes{
     margin: 0 auto;
     width: 850px;
 }
@@ -92,7 +92,6 @@ footer{
     top: 130px;
     background-color: var(--secondary-color);
     opacity: 0.9;
-    /* padding: 30px; */
 }
 .hero article img {
     float: right;
@@ -129,7 +128,6 @@ figcaption{
 }
 .socialmedia a img{
     text-decoration: none;
-    /* display: flex; */
     justify-content: flex-end;
     text-align: left;
 }
@@ -137,7 +135,6 @@ figcaption{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 form{
     width: 400px;
@@ -178,4 +175,42 @@ main section h1{
 }
 main section p{
     text-align: center;
+}
+.cta-button{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 24px;
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+    max-width: 290px;
+    margin: 30px 30px 30px 250px;
+    border-radius: 10px;
+}
+.cta-button:hover {
+    background-color: black;
+}
+.likes{
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 1fr);
+    width: fit-content;
+}
+.box1 {
+    margin: 10px;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: gray;
+    color: black;
+    text-align: center;
+    max-width: 500px;
+    justify-content: center;
+}
+.service{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1rem;
 }
