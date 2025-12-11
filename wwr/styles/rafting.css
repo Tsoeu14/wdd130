@@ -178,12 +178,13 @@ main section p{
 }
 .home img{
     position: relative;
+    padding-bottom: 30px;
 }
 .home form{
     position: absolute;
     top: 290px;
     left: 440px;
-    opacity: 2;
+    opacity: 0.9;
 }
 .cta-button{
     display: block;
@@ -217,6 +218,18 @@ main section p{
     max-width: 500px;
     justify-content: center;
 }
+.trip-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.trip-container aside:nth-child(3) {
+    grid-column: 1 / -1; /* span across both columns */
+    justify-self: center; /* center it */
+}
+
 .service{
     display: flex;
     justify-content: space-around;
@@ -232,4 +245,20 @@ main section p{
 .service img{
     width: fit-content;
     padding: 16px;
+}
+table{
+    border-collapse: collapse;
+    border: 3px solid var(--primary-color);
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin: 30px 0 30px 200px;
+}
+td, th{
+    border: 2px solid var(--accent1-color);
+    padding: 8px 12px;
+    text-align: center;
+}
+thead tr, tfoot tr{
+    background-color: var(--secondary-color);
+    font-weight: 700;
 }
