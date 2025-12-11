@@ -47,13 +47,13 @@ header, main, footer,.yes{
     width: 850px;
 }
 
-h1, h2 {
+h1, h2,h3 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
     display: block;
     text-align: center;
 }
-h2{
+h2, h3{
     background-color: var(--primary-color);
     padding: 2px;
 }
@@ -176,6 +176,15 @@ main section h1{
 main section p{
     text-align: center;
 }
+.home img{
+    position: relative;
+}
+.home form{
+    position: absolute;
+    top: 290px;
+    left: 440px;
+    opacity: 2;
+}
 .cta-button{
     display: block;
     text-decoration: none;
@@ -209,8 +218,18 @@ main section p{
     justify-content: center;
 }
 .service{
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
+    justify-content: space-around;
+}
+.service div{
+    flex-direction: column;
+    width: 19rem;
+    gap: 20px;
+    border: 5px solid gray;
     align-items: center;
-    gap: 1rem;
+    border-radius: 14px;
+}
+.service img{
+    width: fit-content;
+    padding: 16px;
 }
